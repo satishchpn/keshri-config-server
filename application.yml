@@ -18,4 +18,4 @@ third:
   party:
     api:
       service:
-        uri:http://google.co.in
+        uri: http://google.co.in
