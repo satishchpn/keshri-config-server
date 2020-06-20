@@ -15,6 +15,9 @@ security:
       client-id: web
       client-secret: pin
       access-token-validity-seconds: 18000
+    oauth2:
+    resource:
+      userInfoUri: http://localhost:8082/validateUser
 
 eureka:
   client:
@@ -30,5 +33,3 @@ third:
     api:
       service:
         uri: http://google.co.in
-
-
