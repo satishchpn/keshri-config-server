@@ -4,6 +4,17 @@ spring:
       enabled: true
       settings:
         web-allow-others: true
+  security:
+    user:
+      name: user
+      password: pass123
+      
+security:
+  oauth2:
+    client:
+      client-id: web
+      client-secret: pin
+      access-token-validity-seconds: 18000
 
 eureka:
   client:
@@ -19,3 +30,5 @@ third:
     api:
       service:
         uri: http://google.co.in
+
+
